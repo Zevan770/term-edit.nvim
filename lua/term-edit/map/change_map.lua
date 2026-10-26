@@ -24,8 +24,6 @@ function M.enable()
   m.map('C', function()
     delete.delete_range(coord.get_coord '.', coord.get_coord '$')
   end)
-  m.remap('s', 'cl')
-  m.remap('S', 'cc')
 end
 
 return M
